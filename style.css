@@ -6,7 +6,7 @@
 }
 #hero {
   background-image: url(./joshuaa.jpg);
-  background-position: top center;
+  background-position: center;
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -31,6 +31,7 @@ header .header {
   justify-content: space-between;
   transition: 0.6s ease;
   z-index: 10000;
+  padding: 20px;
 }
 header .header .active {
   width: 100%;
@@ -136,7 +137,7 @@ a {
   top: 0;
   left: 0;
   background-color: black;
-  opacity: 0.7;
+  opacity: 0.5;
   z-index: -1;
   position: absolute;
   height: 100%;
@@ -178,63 +179,13 @@ a {
   background-color: crimson;
   color: white;
 }
-#projects .project-items .projects {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  justify-content: space-between;
-  background-color: black;
-  opacity: 0.8;
-  color: whitesmoke;
-  
-  width: 100%;
-  height: 250px;
-  border-radius: 10px;
-  
-  
-}
-#projects{
-  margin: 20px auto;
-}
-#projects .project-items .projects .image{
-  height: 150px;
-}
-#projects .project-items .projects p{
-  padding: 10px;
-  text-align: center;
-}
-#projects .project-items .projects h4{
-  
-  text-align: center;
-}
-#projects .project-items .projects .image img{
-  width: 100%;
-  height: 100%;
-  border-radius: 0 0 10px 10px;
-}
-#projects .project-items .projects{
-  width: 95%;
-  height: 350px;
-}
-#projects .project-items{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  margin: auto;
-  grid-gap: 20px;
-  
-}
-#projects  h1{
-  margin: 30px 0px;
-  text-align: center;
-  font-size: 30px;
-  letter-spacing: 5px;
-  font-size: 2.5rem;
-}
+
 
 #about h1 {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 30px;
+  margin-top: 30px;
 }
 #about {
   line-height: 30px;
@@ -254,92 +205,13 @@ ul {
 #about .about-para {
   margin-bottom: 25px;
 }
-#skill-set h1 {
-  font-size: 2.5rem;
-  text-align: center;
-}
-.skils {
-  background-color: #f5f8fd;
-  margin-top: 40px;
-  padding: 40px;
-  border-radius: 10px;
-  /* overflow: hidden; */
-}
-.skils h2 {
-  padding-left: 20px;
-}
-
-.skill-set ul li {
-  padding: 15px;
-}
-.skill-set ul {
-  padding-top: 20px;
-}
-.progress {
-  margin-left: 10px;
-  height: 10px;
-  width: 400px;
-  position: relative;
-  background-color: #ccc;
-  border-radius: 20px;
-}
-.progress-size {
-  height: 100%;
-  background-color: orange;
-  width: 90%;
-  position: absolute;
-  transition: ease-out;
-  transition-property: right;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-}
-.progress-size1 {
-  height: 100%;
-  background-color: orange;
-  width: 80%;
-  position: absolute;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-}
-.progress-size2 {
-  height: 100%;
-  background-color: orange;
-  width: 50%;
-  position: absolute;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-}
-.progress-size3 {
-  height: 100%;
-  background-color: orange;
-  width: 30%;
-  position: absolute;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-}
-.progress-size4 {
-  height: 100%;
-  background-color: orange;
-  width: 2%;
-  position: absolute;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-}
-.progress-size5 {
-  height: 100%;
-  background-color: orange;
-  width: 30%;
-  position: absolute;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-}
 .list-items {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 #contact {
-  height: 100vh;
+  margin: 20px 0;
   display: flex;
   flex-direction: column;
   align-content: center;
